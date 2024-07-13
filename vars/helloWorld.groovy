@@ -1,2 +1,4 @@
-@Library('Shared-lib@main') _
-helloWorld()
+// vars/helloWorld.groovy
+def sayHello(String name = 'World') {
+    echo "Hello, ${name}!"
+}
